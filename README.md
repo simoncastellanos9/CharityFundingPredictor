@@ -85,20 +85,18 @@ The report should contain the following:
 
   * Data Preprocessing
     * What variable(s) are considered the target(s) for your model?
+      * The target for my model is the "Is-Successful" Column
     * What variable(s) are considered to be the features for your model?
+      * The features would be NAME, APPLICATION_TYPE AFFILIATION CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT
     * What variable(s) are neither targets nor features, and should be removed from the input data?
+      * Variables that are neither targets nor features would be EIN and STATUS.
   * Compiling, Training, and Evaluating the Model
     * How many neurons, layers, and activation functions did you select for your neural network model, and why?
-    * Were you able to achieve the target model performance?
-    * What steps did you take to try and increase model performance?
+      * 3 hidden layers 
+    * Were you able to achieve the target model performance? yes
+    * What steps did you take to try and increase model performance? Changing the name to data points.
 
 3. **Summary**: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
 
 - - -
 
-## Rubric
-
-[Unit 21 - Deep Learning Homework Rubric - Charity Funding Predictor](https://docs.google.com/document/d/1SLOROX0lqZwa1ms-iRbHMQr1QSsMT2k0boO9YpFBnHA/edit?usp=sharing)
-
-___
-© 2021  Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.	
